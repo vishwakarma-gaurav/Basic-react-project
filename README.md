@@ -1,0 +1,1 @@
+Basic react frontend application
