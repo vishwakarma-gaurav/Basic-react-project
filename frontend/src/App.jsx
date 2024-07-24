@@ -6,6 +6,7 @@ import Cart from './pages/Cart/Cart'
 import PlacedOrder from './pages/Placedorder/PlacedOrder.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import LogInPopUp from './components/LoginPopUp/LogInPopUp.jsx'
+import BackToTopButton from './BackToTopButton.jsx'
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false)
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/order" element={<PlacedOrder />} />
         </Routes>
       </div>
+      <BackToTopButton/>
       <Footer />
     </>
   );

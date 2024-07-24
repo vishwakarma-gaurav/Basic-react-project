@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.logo} alt="" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nobis exercitationem minus eveniet! Fugiat qui fuga doloribus asperiores sapiente. Doloribus.</p>
+                <p>Thanks for visiting our website, This is made by Gaurav for connecting with me message me on Twitter, Link is just right here, have a good day</p>
                 <div className="footer-social-icons">
                     <a href=""><img src={assets.facebook_icon} alt="" /></a>
                     <a href="https://x.com/gaur_hub" target='_blank'><img src={assets.twitter_icon} alt="" /></a>
