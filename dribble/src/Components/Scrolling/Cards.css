@@ -1,0 +1,23 @@
+.card p{
+    max-width: 200px;
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+}
+.card img{
+    border-radius: 30px;
+}
+.card .name{
+    color: white;
+    border-radius: 20px;
+}
+.card .job{
+    width: auto;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: solid white;
+    border-width: 0.5px;
+}

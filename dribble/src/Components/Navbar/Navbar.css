@@ -1,0 +1,57 @@
+.navbar{
+    margin-top: 0px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.navbar .left, .navbar .right{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .left ul{
+    margin-left: 20px;
+    width: auto;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navbar .logo img{
+    width: 150px;
+    border-radius: 75px;
+}
+.navbar .right button{
+    margin: 10px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+.navbar .right .login{
+    margin: 10px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+.navbar .right input{
+    border: none;
+    background-color: rgb(218, 218, 218);
+    color: black;
+    height: 50px;
+    border-radius: 35px;
+    text-align: center;
+    
+}

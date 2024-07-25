@@ -1,0 +1,10 @@
+.design{
+    display: flex;
+}
+.design img{
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    border: solid grey;
+    
+}

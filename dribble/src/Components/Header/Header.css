@@ -1,0 +1,35 @@
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.header .ad{
+    margin-top: 70px;
+    padding:  7px 7px 7px 7px;
+    font-size: 18px;
+    background-color: rgb(209, 160, 255);
+    height: auto;
+    width: 400px;
+    border-top-left-radius: 1e+07px;
+    border-top-right-radius: 1e+07px;
+    border-bottom-right-radius: 1e+07px;
+    border-bottom-left-radius: 1e+07px;
+    text-align: center;
+}
+.header .heading{
+    font-size: 35px;
+    text-align: center;
+}
+.header .quote{
+    font-size: 20px;
+}
+.header button{
+    background-color: black;
+    height: 50px;
+    width: 130px;
+    color: white;
+    border-radius: 25px;
+    border-style: none;
+}
